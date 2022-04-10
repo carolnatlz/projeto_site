@@ -1,0 +1,71 @@
+/*{ 
+    background-color: #e5e5f7;
+    opacity: 0.8;
+    background-image: radial-gradient(#444cf7 0.5px, #e5e5f7 0.5px);
+    background-size: 10px 10px;
+}
+*/
+body {  
+    background-image: url("backgg.jpg");
+    background-color: #cccccc;
+    background-size: cover;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+}
+
+.card {
+    width: 400px;
+    border: none;
+    border-radius: 15px;
+    padding: 8px;
+    background-color: #fff;
+    position: relative;
+    height: 400px;
+    opacity: 0.9;
+}
+
+.upper {
+    height: 100px
+}
+
+.upper img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px
+}
+
+.user {
+    position: relative
+}
+
+.profile img {
+    height: 80px;
+    width: 80px;
+    margin-top: 2px
+}
+
+.profile {
+    position: absolute;
+    top: -50px;
+    left: 38%;
+    height: 90px;
+    width: 90px;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    opacity: 1;
+}
+
+.follow { 
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 35px;
+}
+
+.stats span {
+    font-size: 29px
+}
+
+.form-group {
+    border: 0;
+}
