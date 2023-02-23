@@ -1,3 +1,5 @@
+#deploy2023
+
 from ast import For
 import secrets
 from siteprojeto import app, database, bcrypt
